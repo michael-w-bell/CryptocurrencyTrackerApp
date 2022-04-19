@@ -1,0 +1,75 @@
+.root{
+    -fx-background-color: radial-gradient(focus-distance 0% , center 50% 50% , radius 100% , #07bac7, #6ada87);
+    -fx-font-family: Calibri;
+}
+
+.button {
+    -fx-font-size: 16;
+    -fx-font-weight: bold;
+    -fx-padding: 10;
+    -fx-background-radius: 50;
+}
+
+.cancel-button {
+    -fx-background-color: #EF2427;
+}
+
+.signIn-button {
+    -fx-background-color: #5EF230;
+}
+
+.signout-Button {
+    -fx-background-color: #8D99AE;
+}
+
+.edit-button {
+    -fx-background-color: #5189D5;
+}
+
+.add-button {
+    -fx-background-color: #5189D5;
+}
+
+.refresh-button {
+    -fx-background-color: #B2D732;
+}
+
+.createAccount-button {
+    -fx-background-color: #ECDF05;
+}
+
+.text-field {
+    -fx-background-radius: 10;
+    -fx-min-height: 30;
+}
+
+.tool-bar {
+    -fx-background-color: #E4E4F4;
+}
+
+.hello-label {
+    -fx-font-weight: bold;
+    -fx-font-size: 30px;
+}
+.table-view{
+    -fx-background-color: transparent;
+}
+
+.column-header {
+    -fx-background-color: #50B0E3;
+}
+
+.table-row-cell {
+    -fx-background-color: #E5E6E4;
+}
+
+.table-row-cell:even {
+    -fx-background-color: #ECECEB;
+}
+
+.error-label {
+    -fx-font-size: 18;
+    -fx-text-fill: #BB061C;
+    -fx-font-weight: bold;
+}
+

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="javafx-graphics-17.0.0.1-win">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/javafx-graphics-17.0.0.1-win.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

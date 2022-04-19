@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="250.0" prefWidth="500.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.michaelbell.cryptocurrencytrackerapp.controllers.AddNewCoinViewController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="235.0" layoutY="14.0" styleClass="hello-label" text="Add New Coin" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="10.0" />
+      <Label fx:id="lblError" alignment="CENTER" contentDisplay="CENTER" layoutX="236.0" layoutY="45.0" styleClass="error-label" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="45.0" />
+      <HBox alignment="CENTER" layoutY="69.0" prefHeight="117.0" prefWidth="500.0" spacing="20.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="69.0">
+         <children>
+            <VBox alignment="CENTER_RIGHT" spacing="25.0">
+               <children>
+                  <Label text="Coin Symbol:" />
+                  <Label text="Coin Amount:" />
+                  <Label text="Total Spent:" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="117.0" prefWidth="148.0" spacing="10.0">
+               <children>
+                  <ComboBox fx:id="cbCoinNames" prefWidth="150.0" />
+                  <TextField fx:id="txtCoinAmount" promptText="150.50" />
+                  <TextField fx:id="txtTotalSpent" promptText="2632.20" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="64.0" prefWidth="500.0" spacing="50.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <padding>
+            <Insets bottom="10.0" />
+         </padding>
+         <children>
+            <Button fx:id="btnCancel" mnemonicParsing="false" styleClass="signout-Button" text="Cancel" />
+            <Button fx:id="btnSubmit" mnemonicParsing="false" styleClass="signIn-button" text="Submit" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
